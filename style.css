@@ -1,11 +1,12 @@
-.container{
-    width: 350px;
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
 }
 
-#controls i {
-    font-size: 30px;
-    color: purple;
-    margin-right: 20px;
+.container{
+    width: 400px;
 }
 
 
@@ -15,16 +16,22 @@
 
 
 #progress .times,
-#controls{
+.card-footer,
+.volume-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#progress-bar{
-    width: 100%;
+.volume-container i{
+    margin-right: 10px;
 }
 
+
 #music-image{
-    width: 100%;
+    width: 50%;
+    height: 50%;
+    margin-left: 320px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
